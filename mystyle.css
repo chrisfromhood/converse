@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+article {
+  border: 5px solid #000;
+}
+
+h2 {
+  background-color: rgb(218, 214, 214);
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.ship {
+  text-transform: uppercase;
+  color: #777;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+}
+
+button {
+  font-size: 18px;
+  background-color: black;
+  color: rgb(218, 214, 214);
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgb(218, 214, 214);
+  border: none;
+  cursor: pointer;
+  color: black;
+  text-transform: uppercase;
+}
