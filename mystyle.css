@@ -64,12 +64,57 @@ body {
   text-decoration: none;
 }
 
-.box {
+.colors-array {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.box-black {
   height: 16px;
   width: 16px;
   margin: 15px 0px;
   border: 1px solid black;
   background-color: black;
+}
+
+.box-blue {
+  height: 16px;
+  width: 16px;
+  margin: 15px 0px;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.box-red {
+  height: 16px;
+  width: 16px;
+  margin: 15px 0px;
+  border: 1px solid red;
+  background-color: red;
+}
+
+.box-yellow {
+  height: 16px;
+  width: 16px;
+  margin: 15px 0px;
+  border: 1px solid yellow;
+  background-color: yellow;
+}
+
+.box-green {
+  height: 16px;
+  width: 16px;
+  margin: 15px 0px;
+  border: 1px solid green;
+  background-color: green;
+}
+
+.box-brown {
+  height: 16px;
+  width: 16px;
+  margin: 15px 0px;
+  border: 1px solid rgb(68, 4, 4);
+  background-color: rgb(68, 4, 4);
 }
 
 .box::after {
